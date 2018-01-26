@@ -1,0 +1,112 @@
+/*banner部分*/
+.banner_list{
+	width: 1002px;
+	height: 400px;
+	background: url(../img/list_banner.jpg) no-repeat;
+	margin-bottom: 20px;
+}
+.banner_inner{
+	width: 263px;
+	height: 400px;
+	background: #000;
+	opacity: 0.5;
+	padding:30px;
+	box-sizing: border-box;
+	color: #fff;
+	/*font-size:14px;*/
+	line-height: 24px;
+}
+.banner_inner p{
+	font-size:14px;
+}
+.hot{
+	width: 1100px;
+	overflow: hidden;
+}
+.hot .tit{
+	margin-bottom: 8px;
+}
+.hot .hot_pro1{
+	width: 412px;
+	padding: 10px 10px 0 0;
+	/*height: 450px;
+	background: #000;*/
+}
+.hot .hot_pro2{
+	width: 596px;
+	/*height: 450px;
+	background: #333333;*/
+}
+.hot .hot_pro2 img{
+	float: left;
+	margin:10px 10px 0 0;
+}
+.list_list{
+	width: 1002px;
+	background: #fff;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+.subnav{
+	width: 1002px;
+	height: 38px;
+	background: #535353;
+	border-radius: 5px 5px 0 0;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.subnav h3{
+	font-size: 15px;
+	line-height: 38px;
+	color: #fff;
+}
+.subnav ol{
+	margin-left: 20px;
+}
+.subnav ol li{
+	float: left;
+	font-size: 14px;
+	line-height: 38px;
+	padding: 0 10px;
+}
+.subnav ol li a{
+	color: #fff;
+}
+.list_list ul{
+	padding: 30px 0 0 25px;
+	overflow: hidden;
+}
+.list_list ul li{
+	float: left;
+	width: 220px;
+	margin: 0 20px 20px 0;
+	
+}
+.list_list ul li>a>img{
+	display: inline;
+}
+.list_list ul li>a{
+	display: block;
+	width: 220px;
+	padding: 6px 0;
+	margin-bottom: 10px;
+	text-align: center;
+	border:1px solid #ccc;
+}
+.list_list ul li>h2{
+	font-size: 13px;
+	height: 38px;
+	line-height: 38px;
+	font-weight: normal;	
+}
+.list_list ul li>h2>a{
+	color: #888;
+}
+.list_list ul li>h2>a:hover{
+	color: #666;
+}
+.list_list ul li>p{
+	margin-top: 10px;
+	color: #f00;
+	font-size: 14px;
+}

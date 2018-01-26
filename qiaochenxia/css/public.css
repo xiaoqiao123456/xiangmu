@@ -1,0 +1,43 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { 
+	margin:0; padding:0;
+}
+fieldset, img { 
+	border:none; 
+}
+i,em{
+	font-style: normal;
+}
+/*h1, h2, h3, h4, h5, h6,b,strong{
+	font-weight: normal;
+}*/
+img{
+	display: block;
+	border:none;
+}
+address, caption, cite, code, dfn, th, var {
+	font-style:normal; 
+	font-weight:normal;
+}
+ul, ol { 
+	list-style:none;
+} 
+body { 
+	color:#333;
+	font:12px/20px "微软雅黑","宋体","Arial Narrow",HELVETICA;
+	background:#f0f0f0;
+	overflow-x:hidden;
+}
+a { 
+	color:#666;
+	text-decoration:none;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.content{
+	width: 100%;
+	margin: 0 auto;
+}
