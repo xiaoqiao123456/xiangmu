@@ -135,7 +135,10 @@ window.onload=function(){
 			}
 			$(".subnav ol").html(str);
 			$(".list_list ul").html(list);
-			
+			//点击list页列表的li描述进入产品详情页
+			$(".list_list ul li").click(function(){
+				location.href="page.html";
+			})
 			//为.subnav下的ol下的li添加点击事件
 			$(".subnav ol li").click(function(){
 				var cname=$(this).attr("cname");
@@ -153,12 +156,13 @@ window.onload=function(){
 					`;
 				}
 				$(".list_list ul").html(list1);
+				//点击list页列表的li描述进入产品详情页
+				$(".list_list ul li").click(function(){
+					location.href="page.html";
+				})
 			})
 			
-			//点击list页列表的li描述进入产品详情页
-			$(".list_list ul li").click(function(){
-				location.href="page.html"
-			})
+			
 		
 		}
 	});
